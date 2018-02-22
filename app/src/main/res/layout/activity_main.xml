@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhaicompany.androidthingsdemo.MainActivity"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <ImageView
+        android:id="@+id/img_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:layout_gravity="center"
+        />
+        <TextView
+            android:id="@+id/status_text"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_weight="0.1"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/takePicButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="@string/take_picture"
+        android:layout_gravity="center"
+    />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/progressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+
+
+
+    </LinearLayout>
+
+<!--    <TextView
+        android:id="@+id/internet"
+        android:layout_gravity="end"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="i"
+        android:gravity="center"/>-->
+
+
+
+
+
+
+</FrameLayout>

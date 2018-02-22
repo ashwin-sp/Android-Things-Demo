@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidThingsDemo</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="capture_successful">Capture Successful</string>
+    <string name="retake">Please retake your picture</string>
+    <string name="no_internet_connectivity">No internet connectivity</string>
+
+    <string name="key">AIzaSyDMTUr6PNpB8Wg6zSeO0SEexDkb8WRlaoo</string>
+</resources>
